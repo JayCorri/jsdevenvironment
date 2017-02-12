@@ -8,7 +8,7 @@ install:
     #get the latest suitable version of node or io.js
     - ps: Install-Product node $env:nodejs_version
     #install modules
-    -npm install
+    - npm install
 
 #Post-install test scripts
 test_script:
